@@ -1,7 +1,7 @@
 <template>
     <div class="homepage">
+        <HeaderBar />
         <h1>Welcome to the Home Page!!!</h1>
-        <button><a href="../assets/logo2.png" download>Download</a></button>
         <button class="logout-btn" v-on:click="sign_out()">Logout</button>
     </div>
 </template>
@@ -86,8 +86,12 @@
 </style>
 
 <script>
+import HeaderBar from './HeaderBar.vue'
 export default {
     name: 'HomePage',
+    components: {
+        HeaderBar,
+    },
     mounted() {
         let user = localStorage.getItem("user-info")
         if (!user) {
