@@ -1,0 +1,31 @@
+<template>
+    <div class="header-bar">
+        <a href="#">Home</a>
+        <a href="#">About-Us</a>
+        <a href="#">Service</a>
+        <a href="#">Contact-Us</a>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'HeaderBar'
+}
+</script>
+
+<style>
+.header-bar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.header-bar a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 14px;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+</style>
