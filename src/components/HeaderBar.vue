@@ -18,6 +18,8 @@ export default {
     background-color: #333;
     overflow: hidden;
     font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .header-bar a {
