@@ -17,6 +17,7 @@ export default {
 .header-bar {
     background-color: #333;
     overflow: hidden;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .header-bar a {
@@ -27,5 +28,10 @@ export default {
     font-size: 17px;
     text-decoration: none;
     margin-right: 5px;
+}
+
+.header-bar a:hover{
+    background: #ddd;
+    color: #333;
 }
 </style>
