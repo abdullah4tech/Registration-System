@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "email": "john@code.com",
+      "name": "John Massquoi",
+      "password": "Massquoi@2",
+      "id": 1
+    },
+    {
+      "email": "admin",
+      "name": "admin",
+      "password": "admin",
+      "id": 2
+    },
+    {
+      "email": "abdullah@gmail.com",
+      "name": "Abdullah Mustapha",
+      "password": "Dmeo",
+      "id": 3
+    },
+    {
+      "email": "demo",
+      "name": "demo",
+      "password": "demo",
+      "id": 4
+    },
+    {
+      "email": "aa",
+      "name": "aa",
+      "password": "aa",
+      "id": 5
+    },
+    {
+      "email": "shaggi@gmail.com",
+      "name": "Shaggi Salone",
+      "password": "shaggi@2024",
+      "id": 6
+    }
+  ]
+}
