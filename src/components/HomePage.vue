@@ -102,7 +102,7 @@ export default {
         sign_out() {
             let user = localStorage.getItem("user-info")
             if (user) {
-                localStorage.removeItem("user-info")
+                localStorage.clear()
                 window.location.reload()
             }
         }
