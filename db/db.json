@@ -35,6 +35,12 @@
       "name": "Shaggi Salone",
       "password": "shaggi@2024",
       "id": 6
+    },
+    {
+      "email": "ashanti@yahoo.com",
+      "name": "Ashanti Chuks",
+      "password": "123",
+      "id": 7
     }
   ]
 }
