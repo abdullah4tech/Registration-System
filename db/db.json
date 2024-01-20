@@ -41,6 +41,30 @@
       "name": "Ashanti Chuks",
       "password": "123",
       "id": 7
+    },
+    {
+      "email": "sikighajunior@gmail.com",
+      "name": "Johnson solomon",
+      "password": "Jokerjunior4",
+      "id": 8
+    },
+    {
+      "email": "ashanti@yahoo.com",
+      "name": "Ashanti Chuks",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "email": "micheal@yahoo.com",
+      "name": "Micheal Adeyemo",
+      "password": "Wereey@2024",
+      "id": 10
+    },
+    {
+      "email": "doom@gmail.com",
+      "name": "Doom World",
+      "password": "Demo",
+      "id": 11
     }
   ]
 }

@@ -1,9 +1,10 @@
 <template>
-    <div class="homepage">
+    <section class="homepage">
         <HeaderBar />
-        <h1>Welcome to the Home Page!!!</h1>
-        <button class="logout-btn" v-on:click="sign_out()">Logout</button>
-    </div>
+        <h1>Welcome to the Home Page</h1>
+
+        <button class="logout-btn" v-on:click="sign_out()">Logout</button> 
+    </section>
 </template>
 
 <style>
