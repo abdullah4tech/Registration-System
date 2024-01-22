@@ -65,6 +65,12 @@
       "name": "Doom World",
       "password": "Demo",
       "id": 11
+    },
+    {
+      "email": "josiahmildredm@gmail.com",
+      "name": "Mildred Josiah",
+      "password": "Annmilking98",
+      "id": 12
     }
   ]
 }
