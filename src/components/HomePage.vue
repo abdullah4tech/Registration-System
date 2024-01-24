@@ -1,6 +1,7 @@
 <template>
     <section class="homepage">
         <HeaderBar />
+        <h1>Welcom to my Registration System</h1>
         <button class="logout-btn" v-on:click="sign_out()">Logout</button>
     </section>
 </template>
@@ -95,14 +96,6 @@ export default {
         let user = localStorage.getItem("user-info")
         if (!user) {
             this.$router.push({ name: 'Login' })
-        } else {
-            // Assuming your JSON structure includes a 'fullName' field for each user
-            let fullName = user.fullName;
-
-            // Update the welcome message with the user's full name
-            this.$nextTick(() => {
-                document.querySelector('h1').innerText = `Welcome, ${fullName}!`;
-            });
         }
     },
     methods: {
